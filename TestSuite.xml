@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" verbose="1">
+
+    <test name="TestNG_Annotations">
+        <classes>
+            <class name="org.testng.annotations.test.TestNGAnnotationTest2"/>
+            <class name="org.testng.annotations.test.TestNGAnnotationTest3"/>
+            <class name="org.testng.annotations.test.TestNGAnnotationTest4"/>
+            <class name="org.testng.annotations.test.TestNGAnnotationTest5"/>
+        </classes>
+    </test>
+
+    <test name="PriorityTests">
+    <classes>
+        <class name="org.testng.annotations.test.PriorityTest1"/>
+        <class name="org.testng.annotations.test.PriorityTest2"/>
+    </classes>
+    </test>
+
+    <test name="DependsOnTests">
+        <classes>
+            <class name="org.testng.annotations.test.DependsOnTest"/>
+        </classes>
+    </test>
+
+</suite>
